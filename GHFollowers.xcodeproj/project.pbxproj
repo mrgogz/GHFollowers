@@ -15,6 +15,10 @@
 		B1513D512C4AA2370091EEEA /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D502C4AA2370091EEEA /* GFButton.swift */; };
 		B1513D532C4AA66E0091EEEA /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D522C4AA66E0091EEEA /* GFTextField.swift */; };
 		B1513D552C4AB37D0091EEEA /* FollowersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D542C4AB37D0091EEEA /* FollowersListVC.swift */; };
+		B1513D572C4AC0A70091EEEA /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D562C4AC0A70091EEEA /* GFTitleLabel.swift */; };
+		B1513D592C4AC4480091EEEA /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D582C4AC4480091EEEA /* GFBodyLabel.swift */; };
+		B1513D5B2C4AC53A0091EEEA /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D5A2C4AC53A0091EEEA /* GFAlertVC.swift */; };
+		B1513D5F2C4ACB6E0091EEEA /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D5E2C4ACB6E0091EEEA /* UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		B1513D502C4AA2370091EEEA /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		B1513D522C4AA66E0091EEEA /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		B1513D542C4AB37D0091EEEA /* FollowersListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersListVC.swift; sourceTree = "<group>"; };
+		B1513D562C4AC0A70091EEEA /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
+		B1513D582C4AC4480091EEEA /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
+		B1513D5A2C4AC53A0091EEEA /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
+		B1513D5E2C4ACB6E0091EEEA /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,10 @@
 				B1513D502C4AA2370091EEEA /* GFButton.swift */,
 				B1513D522C4AA66E0091EEEA /* GFTextField.swift */,
 				B1513D542C4AB37D0091EEEA /* FollowersListVC.swift */,
+				B1513D562C4AC0A70091EEEA /* GFTitleLabel.swift */,
+				B1513D582C4AC4480091EEEA /* GFBodyLabel.swift */,
+				B1513D5A2C4AC53A0091EEEA /* GFAlertVC.swift */,
+				B1513D5E2C4ACB6E0091EEEA /* UIViewController+Ext.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -145,7 +157,11 @@
 				B1513D532C4AA66E0091EEEA /* GFTextField.swift in Sources */,
 				B1513D552C4AB37D0091EEEA /* FollowersListVC.swift in Sources */,
 				B1513D4F2C4A82480091EEEA /* FavoritesListVC.swift in Sources */,
+				B1513D5F2C4ACB6E0091EEEA /* UIViewController+Ext.swift in Sources */,
 				B1513D512C4AA2370091EEEA /* GFButton.swift in Sources */,
+				B1513D5B2C4AC53A0091EEEA /* GFAlertVC.swift in Sources */,
+				B1513D592C4AC4480091EEEA /* GFBodyLabel.swift in Sources */,
+				B1513D572C4AC0A70091EEEA /* GFTitleLabel.swift in Sources */,
 				B1513D4D2C4A821E0091EEEA /* SearchVC.swift in Sources */,
 				B1513D392C4A7B250091EEEA /* AppDelegate.swift in Sources */,
 				B1513D3B2C4A7B250091EEEA /* SceneDelegate.swift in Sources */,
