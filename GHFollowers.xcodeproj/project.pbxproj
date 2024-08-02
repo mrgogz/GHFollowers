@@ -26,6 +26,7 @@
 		B1513D712C5539880091EEEA /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D702C5539880091EEEA /* FollowerCell.swift */; };
 		B1513D732C553A580091EEEA /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D722C553A580091EEEA /* GFAvatarImageView.swift */; };
 		B1513D752C5A5D130091EEEA /* UIHelperFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D742C5A5D120091EEEA /* UIHelperFile.swift */; };
+		B1513D7E2C5CF4C00091EEEA /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D7D2C5CF4C00091EEEA /* GFEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		B1513D702C5539880091EEEA /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		B1513D722C553A580091EEEA /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		B1513D742C5A5D120091EEEA /* UIHelperFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelperFile.swift; sourceTree = "<group>"; };
+		B1513D7D2C5CF4C00091EEEA /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,13 +109,13 @@
 		B1513D612C4BBD740091EEEA /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				B1513D7C2C5CF4710091EEEA /* Labels */,
+				B1513D7B2C5CF4370091EEEA /* ViewControllers */,
+				B1513D792C5CF4200091EEEA /* ImageViews */,
+				B1513D782C5CF4130091EEEA /* TextFields */,
+				B1513D772C5CF40A0091EEEA /* Buttons */,
+				B1513D762C5CF3FC0091EEEA /* Views */,
 				B1513D6F2C5539610091EEEA /* Cells */,
-				B1513D5A2C4AC53A0091EEEA /* GFAlertVC.swift */,
-				B1513D582C4AC4480091EEEA /* GFBodyLabel.swift */,
-				B1513D562C4AC0A70091EEEA /* GFTitleLabel.swift */,
-				B1513D522C4AA66E0091EEEA /* GFTextField.swift */,
-				B1513D502C4AA2370091EEEA /* GFButton.swift */,
-				B1513D722C553A580091EEEA /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -168,6 +170,55 @@
 				B1513D702C5539880091EEEA /* FollowerCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		B1513D762C5CF3FC0091EEEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1513D7D2C5CF4C00091EEEA /* GFEmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1513D772C5CF40A0091EEEA /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B1513D502C4AA2370091EEEA /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		B1513D782C5CF4130091EEEA /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				B1513D522C4AA66E0091EEEA /* GFTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		B1513D792C5CF4200091EEEA /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				B1513D722C553A580091EEEA /* GFAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		B1513D7B2C5CF4370091EEEA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B1513D5A2C4AC53A0091EEEA /* GFAlertVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B1513D7C2C5CF4710091EEEA /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				B1513D582C4AC4480091EEEA /* GFBodyLabel.swift */,
+				B1513D562C4AC0A70091EEEA /* GFTitleLabel.swift */,
+			);
+			path = Labels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +304,7 @@
 				B1513D592C4AC4480091EEEA /* GFBodyLabel.swift in Sources */,
 				B1513D662C4BE1230091EEEA /* Follower.swift in Sources */,
 				B1513D572C4AC0A70091EEEA /* GFTitleLabel.swift in Sources */,
+				B1513D7E2C5CF4C00091EEEA /* GFEmptyStateView.swift in Sources */,
 				B1513D6B2C4D9AFD0091EEEA /* NetworkManager.swift in Sources */,
 				B1513D4D2C4A821E0091EEEA /* SearchVC.swift in Sources */,
 				B1513D392C4A7B250091EEEA /* AppDelegate.swift in Sources */,
