@@ -27,6 +27,7 @@
 		B1513D732C553A580091EEEA /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D722C553A580091EEEA /* GFAvatarImageView.swift */; };
 		B1513D752C5A5D130091EEEA /* UIHelperFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D742C5A5D120091EEEA /* UIHelperFile.swift */; };
 		B1513D7E2C5CF4C00091EEEA /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D7D2C5CF4C00091EEEA /* GFEmptyStateView.swift */; };
+		B1513D802C5ECD970091EEEA /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D7F2C5ECD970091EEEA /* UserInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		B1513D722C553A580091EEEA /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		B1513D742C5A5D120091EEEA /* UIHelperFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelperFile.swift; sourceTree = "<group>"; };
 		B1513D7D2C5CF4C00091EEEA /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		B1513D7F2C5ECD970091EEEA /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				B1513D4C2C4A821E0091EEEA /* SearchVC.swift */,
 				B1513D542C4AB37D0091EEEA /* FollowersListVC.swift */,
 				B1513D4E2C4A82480091EEEA /* FavoritesListVC.swift */,
+				B1513D7F2C5ECD970091EEEA /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				B1513D4D2C4A821E0091EEEA /* SearchVC.swift in Sources */,
 				B1513D392C4A7B250091EEEA /* AppDelegate.swift in Sources */,
 				B1513D3B2C4A7B250091EEEA /* SceneDelegate.swift in Sources */,
+				B1513D802C5ECD970091EEEA /* UserInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
