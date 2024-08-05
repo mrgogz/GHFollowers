@@ -22,12 +22,12 @@
 		B1513D662C4BE1230091EEEA /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D652C4BE1230091EEEA /* Follower.swift */; };
 		B1513D682C4BE2890091EEEA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D672C4BE2890091EEEA /* User.swift */; };
 		B1513D6B2C4D9AFD0091EEEA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D6A2C4D9AFD0091EEEA /* NetworkManager.swift */; };
-		B1513D6E2C5051230091EEEA /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D6D2C5051230091EEEA /* ErrorMessage.swift */; };
 		B1513D712C5539880091EEEA /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D702C5539880091EEEA /* FollowerCell.swift */; };
 		B1513D732C553A580091EEEA /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D722C553A580091EEEA /* GFAvatarImageView.swift */; };
 		B1513D752C5A5D130091EEEA /* UIHelperFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D742C5A5D120091EEEA /* UIHelperFile.swift */; };
 		B1513D7E2C5CF4C00091EEEA /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D7D2C5CF4C00091EEEA /* GFEmptyStateView.swift */; };
 		B1513D802C5ECD970091EEEA /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D7F2C5ECD970091EEEA /* UserInfoVC.swift */; };
+		B1513D822C6133600091EEEA /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D812C6133600091EEEA /* GFError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,12 +48,12 @@
 		B1513D652C4BE1230091EEEA /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		B1513D672C4BE2890091EEEA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B1513D6A2C4D9AFD0091EEEA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		B1513D6D2C5051230091EEEA /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		B1513D702C5539880091EEEA /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		B1513D722C553A580091EEEA /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		B1513D742C5A5D120091EEEA /* UIHelperFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelperFile.swift; sourceTree = "<group>"; };
 		B1513D7D2C5CF4C00091EEEA /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		B1513D7F2C5ECD970091EEEA /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
+		B1513D812C6133600091EEEA /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,8 +161,8 @@
 		B1513D6C2C50510D0091EEEA /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				B1513D6D2C5051230091EEEA /* ErrorMessage.swift */,
 				B1513D742C5A5D120091EEEA /* UIHelperFile.swift */,
+				B1513D812C6133600091EEEA /* GFError.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -303,8 +303,8 @@
 				B1513D512C4AA2370091EEEA /* GFButton.swift in Sources */,
 				B1513D5B2C4AC53A0091EEEA /* GFAlertVC.swift in Sources */,
 				B1513D712C5539880091EEEA /* FollowerCell.swift in Sources */,
-				B1513D6E2C5051230091EEEA /* ErrorMessage.swift in Sources */,
 				B1513D592C4AC4480091EEEA /* GFBodyLabel.swift in Sources */,
+				B1513D822C6133600091EEEA /* GFError.swift in Sources */,
 				B1513D662C4BE1230091EEEA /* Follower.swift in Sources */,
 				B1513D572C4AC0A70091EEEA /* GFTitleLabel.swift in Sources */,
 				B1513D7E2C5CF4C00091EEEA /* GFEmptyStateView.swift in Sources */,
