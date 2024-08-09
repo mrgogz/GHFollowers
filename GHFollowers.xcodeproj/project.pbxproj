@@ -37,6 +37,7 @@
 		B1513D902C651F5D0091EEEA /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D8F2C651F5D0091EEEA /* GFFollowerItemVC.swift */; };
 		B1513D942C6524720091EEEA /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D932C6524720091EEEA /* Date+Ext.swift */; };
 		B1513D962C6524C40091EEEA /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D952C6524C40091EEEA /* String+Ext.swift */; };
+		B1CA46F82C66327A0071DA95 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA46F72C66327A0071DA95 /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		B1513D8F2C651F5D0091EEEA /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
 		B1513D932C6524720091EEEA /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		B1513D952C6524C40091EEEA /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		B1CA46F72C66327A0071DA95 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				B1513D6A2C4D9AFD0091EEEA /* NetworkManager.swift */,
+				B1CA46F72C66327A0071DA95 /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				B1513D662C4BE1230091EEEA /* Follower.swift in Sources */,
 				B1513D572C4AC0A70091EEEA /* GFTitleLabel.swift in Sources */,
 				B1513D942C6524720091EEEA /* Date+Ext.swift in Sources */,
+				B1CA46F82C66327A0071DA95 /* PersistenceManager.swift in Sources */,
 				B1513D862C637C780091EEEA /* GFSecondaryTitleLabel.swift in Sources */,
 				B1513D7E2C5CF4C00091EEEA /* GFEmptyStateView.swift in Sources */,
 				B1513D6B2C4D9AFD0091EEEA /* NetworkManager.swift in Sources */,
