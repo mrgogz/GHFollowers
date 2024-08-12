@@ -38,6 +38,7 @@
 		B1513D942C6524720091EEEA /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D932C6524720091EEEA /* Date+Ext.swift */; };
 		B1513D962C6524C40091EEEA /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1513D952C6524C40091EEEA /* String+Ext.swift */; };
 		B1CA46F82C66327A0071DA95 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA46F72C66327A0071DA95 /* PersistenceManager.swift */; };
+		B1CA46FA2C6A40D70071DA95 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA46F92C6A40D70071DA95 /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		B1513D932C6524720091EEEA /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		B1513D952C6524C40091EEEA /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		B1CA46F72C66327A0071DA95 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		B1CA46F92C6A40D70071DA95 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				B1513D702C5539880091EEEA /* FollowerCell.swift */,
+				B1CA46F92C6A40D70071DA95 /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				B1513D5B2C4AC53A0091EEEA /* GFAlertVC.swift in Sources */,
 				B1513D902C651F5D0091EEEA /* GFFollowerItemVC.swift in Sources */,
 				B1513D8A2C64EECE0091EEEA /* GFItemInfoView.swift in Sources */,
+				B1CA46FA2C6A40D70071DA95 /* FavoriteCell.swift in Sources */,
 				B1513D712C5539880091EEEA /* FollowerCell.swift in Sources */,
 				B1513D592C4AC4480091EEEA /* GFBodyLabel.swift in Sources */,
 				B1513D842C637B9F0091EEEA /* GFUserInfoHeaderVC.swift in Sources */,
