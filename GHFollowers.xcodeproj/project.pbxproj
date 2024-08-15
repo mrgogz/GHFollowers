@@ -41,6 +41,7 @@
 		B1CA46FE2C6B7A3C0071DA95 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA46FD2C6B7A3C0071DA95 /* GFTabBarController.swift */; };
 		B1CA47002C6D34B00071DA95 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA46FF2C6D34B00071DA95 /* GFAlertContainerView.swift */; };
 		B1CA47022C6E55FA0071DA95 /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA47012C6E55FA0071DA95 /* GFDataLoadingVC.swift */; };
+		B1CA47042C6E74B30071DA95 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA47032C6E74B20071DA95 /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		B1CA46FD2C6B7A3C0071DA95 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		B1CA46FF2C6D34B00071DA95 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		B1CA47012C6E55FA0071DA95 /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
+		B1CA47032C6E74B20071DA95 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			children = (
 				B1513D5E2C4ACB6E0091EEEA /* UIViewController+Ext.swift */,
 				B1513D932C6524720091EEEA /* Date+Ext.swift */,
+				B1CA47032C6E74B20071DA95 /* UIView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1CA47042C6E74B30071DA95 /* UIView+Ext.swift in Sources */,
 				B1513D682C4BE2890091EEEA /* User.swift in Sources */,
 				B1513D752C5A5D130091EEEA /* UIHelperFile.swift in Sources */,
 				B1513D532C4AA66E0091EEEA /* GFTextField.swift in Sources */,
