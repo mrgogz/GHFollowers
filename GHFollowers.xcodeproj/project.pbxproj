@@ -40,6 +40,7 @@
 		B1CA46FA2C6A40D70071DA95 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA46F92C6A40D70071DA95 /* FavoriteCell.swift */; };
 		B1CA46FE2C6B7A3C0071DA95 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA46FD2C6B7A3C0071DA95 /* GFTabBarController.swift */; };
 		B1CA47002C6D34B00071DA95 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA46FF2C6D34B00071DA95 /* GFAlertContainerView.swift */; };
+		B1CA47022C6E55FA0071DA95 /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA47012C6E55FA0071DA95 /* GFDataLoadingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		B1CA46F92C6A40D70071DA95 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		B1CA46FD2C6B7A3C0071DA95 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		B1CA46FF2C6D34B00071DA95 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
+		B1CA47012C6E55FA0071DA95 /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +246,7 @@
 				B1513D922C6520140091EEEA /* ItemInfoVCs */,
 				B1513D5A2C4AC53A0091EEEA /* GFAlertVC.swift */,
 				B1513D832C637B9F0091EEEA /* GFUserInfoHeaderVC.swift */,
+				B1CA47012C6E55FA0071DA95 /* GFDataLoadingVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				B1513D592C4AC4480091EEEA /* GFBodyLabel.swift in Sources */,
 				B1513D842C637B9F0091EEEA /* GFUserInfoHeaderVC.swift in Sources */,
 				B1513D822C6133600091EEEA /* GFError.swift in Sources */,
+				B1CA47022C6E55FA0071DA95 /* GFDataLoadingVC.swift in Sources */,
 				B1513D662C4BE1230091EEEA /* Follower.swift in Sources */,
 				B1CA47002C6D34B00071DA95 /* GFAlertContainerView.swift in Sources */,
 				B1513D572C4AC0A70091EEEA /* GFTitleLabel.swift in Sources */,
