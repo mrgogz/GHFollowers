@@ -7,6 +7,11 @@
 
 import UIKit
 
+protocol ItemInfoVCDelegate {
+    func didTapGitHubProfile(for user: User)
+    func didTapGetFollowers(for user: User)
+}
+
 class GFItemInfoVC: UIViewController {
     
     let stackView = UIStackView()
@@ -15,7 +20,6 @@ class GFItemInfoVC: UIViewController {
     let actionButton = GFButton()
     
     var user: User!
-    var delegate: UserInfoVCDelegate!
     
     
     init(user: User) {
