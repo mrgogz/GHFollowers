@@ -42,6 +42,7 @@
 		B1CA47002C6D34B00071DA95 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA46FF2C6D34B00071DA95 /* GFAlertContainerView.swift */; };
 		B1CA47022C6E55FA0071DA95 /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA47012C6E55FA0071DA95 /* GFDataLoadingVC.swift */; };
 		B1CA47042C6E74B30071DA95 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA47032C6E74B20071DA95 /* UIView+Ext.swift */; };
+		B1CA47062C70B9400071DA95 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA47052C70B9400071DA95 /* UITableView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		B1CA46FF2C6D34B00071DA95 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		B1CA47012C6E55FA0071DA95 /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
 		B1CA47032C6E74B20071DA95 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		B1CA47052C70B9400071DA95 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				B1513D5E2C4ACB6E0091EEEA /* UIViewController+Ext.swift */,
 				B1513D932C6524720091EEEA /* Date+Ext.swift */,
 				B1CA47032C6E74B20071DA95 /* UIView+Ext.swift */,
+				B1CA47052C70B9400071DA95 /* UITableView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				B1513D4D2C4A821E0091EEEA /* SearchVC.swift in Sources */,
 				B1513D392C4A7B250091EEEA /* AppDelegate.swift in Sources */,
 				B1513D3B2C4A7B250091EEEA /* SceneDelegate.swift in Sources */,
+				B1CA47062C70B9400071DA95 /* UITableView+Ext.swift in Sources */,
 				B1513D8E2C651AB80091EEEA /* GFRepoItemVC.swift in Sources */,
 				B1513D802C5ECD970091EEEA /* UserInfoVC.swift in Sources */,
 			);
